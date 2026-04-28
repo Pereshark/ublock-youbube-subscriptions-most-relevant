@@ -1,0 +1,10 @@
+! Title: YouTube YouTube Subscriptions Most Relevant Blocker
+! Description: hides YouTube subscriptions most relevant (shelve, cards)
+! Homepage: https://github.com/Pereshark/ublock-youbube-subscriptions-most-relevant
+! Expires: 7 days
+! License: MIT
+
+! YouTube - hides subscriptions most relevant (shelve, cards)
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(2)
+
+youtube.com##ytd-rich-section-renderer:has(#title:has-text(Les plus pertinentes))
